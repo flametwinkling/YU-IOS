@@ -1,0 +1,20 @@
+//
+//  PrefixHeader.pch
+//  YU-IOS
+//
+//  Created by yuhao on 2017/10/12.
+//  Copyright © 2017年 yuhao. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+//vc
+#import "YHMainViewController.h"
+
+
+//lib
+#import <AFNetworking.h>
+#import <MJRefresh.h>
+
+#endif /* PrefixHeader_pch */
