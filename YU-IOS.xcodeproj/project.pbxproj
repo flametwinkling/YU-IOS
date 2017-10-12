@@ -12,6 +12,8 @@
 		66E7127E1F8F4E1F00D8130E /* YHMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E7127D1F8F4E1F00D8130E /* YHMainViewController.m */; };
 		66E712891F8F4EE100D8130E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E712881F8F4EC400D8130E /* main.m */; };
 		66E7128B1F8F4F0A00D8130E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E712811F8F4EC400D8130E /* AppDelegate.m */; };
+		66E712961F8F7C3C00D8130E /* YHAdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E712941F8F7C3C00D8130E /* YHAdViewController.m */; };
+		66E712971F8F7C3C00D8130E /* YHAdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66E712951F8F7C3C00D8130E /* YHAdViewController.xib */; };
 		94CA1FE3C9DA84E6CACC4546 /* libPods-YU-IOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FBF03F0BF43B3369DB940F90 /* libPods-YU-IOS.a */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +50,9 @@
 		66E712871F8F4EC400D8130E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		66E712881F8F4EC400D8130E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		66E7128E1F8F540000D8130E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		66E712931F8F7C3C00D8130E /* YHAdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHAdViewController.h; sourceTree = "<group>"; };
+		66E712941F8F7C3C00D8130E /* YHAdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHAdViewController.m; sourceTree = "<group>"; };
+		66E712951F8F7C3C00D8130E /* YHAdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YHAdViewController.xib; sourceTree = "<group>"; };
 		85698007F931D5D392B3F4B8 /* Pods-YU-IOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YU-IOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YU-IOS/Pods-YU-IOS.debug.xcconfig"; sourceTree = "<group>"; };
 		AE02E3DA5D5C16F415053C32 /* Pods-YU-IOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YU-IOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-YU-IOS/Pods-YU-IOS.release.xcconfig"; sourceTree = "<group>"; };
 		FBF03F0BF43B3369DB940F90 /* libPods-YU-IOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YU-IOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,6 +109,7 @@
 		66E712451F8F4DB100D8130E /* YU-IOS */ = {
 			isa = PBXGroup;
 			children = (
+				66E7128F1F8F7C1100D8130E /* ad */,
 				66E7127F1F8F4EC400D8130E /* supporting file */,
 				66E712781F8F4E0300D8130E /* main */,
 			);
@@ -172,6 +178,40 @@
 				66E7128E1F8F540000D8130E /* PrefixHeader.pch */,
 			);
 			path = "supporting file";
+			sourceTree = "<group>";
+		};
+		66E7128F1F8F7C1100D8130E /* ad */ = {
+			isa = PBXGroup;
+			children = (
+				66E712901F8F7C1100D8130E /* controller */,
+				66E712911F8F7C1100D8130E /* model */,
+				66E712921F8F7C1100D8130E /* view */,
+			);
+			path = ad;
+			sourceTree = "<group>";
+		};
+		66E712901F8F7C1100D8130E /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				66E712931F8F7C3C00D8130E /* YHAdViewController.h */,
+				66E712941F8F7C3C00D8130E /* YHAdViewController.m */,
+				66E712951F8F7C3C00D8130E /* YHAdViewController.xib */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		66E712911F8F7C1100D8130E /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		66E712921F8F7C1100D8130E /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 		B0787D2385066F74E8717B31 /* Pods */ = {
@@ -300,6 +340,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66E712971F8F7C3C00D8130E /* YHAdViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,6 +419,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66E712961F8F7C3C00D8130E /* YHAdViewController.m in Sources */,
 				66E7128B1F8F4F0A00D8130E /* AppDelegate.m in Sources */,
 				66E712891F8F4EE100D8130E /* main.m in Sources */,
 				66E7127E1F8F4E1F00D8130E /* YHMainViewController.m in Sources */,
