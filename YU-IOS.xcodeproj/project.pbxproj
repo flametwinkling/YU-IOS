@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66A1BA9E1F9059E10096907F /* AdModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A1BA9D1F9059E10096907F /* AdModel.m */; };
+		66A1BAA21F905ECE0096907F /* YHRootNet.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A1BAA11F905ECE0096907F /* YHRootNet.m */; };
+		66A1BAA51F90637A0096907F /* YHDatasourceNetData.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A1BAA41F90637A0096907F /* YHDatasourceNetData.m */; };
 		66E712601F8F4DB200D8130E /* YU_IOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E7125F1F8F4DB200D8130E /* YU_IOSTests.m */; };
 		66E7126B1F8F4DB200D8130E /* YU_IOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E7126A1F8F4DB200D8130E /* YU_IOSUITests.m */; };
 		66E7127E1F8F4E1F00D8130E /* YHMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E7127D1F8F4E1F00D8130E /* YHMainViewController.m */; };
@@ -35,6 +38,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		66A1BA9B1F9056FF0096907F /* classes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = classes.h; sourceTree = "<group>"; };
+		66A1BA9C1F9059E10096907F /* AdModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdModel.h; sourceTree = "<group>"; };
+		66A1BA9D1F9059E10096907F /* AdModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdModel.m; sourceTree = "<group>"; };
+		66A1BAA01F905ECE0096907F /* YHRootNet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHRootNet.h; sourceTree = "<group>"; };
+		66A1BAA11F905ECE0096907F /* YHRootNet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHRootNet.m; sourceTree = "<group>"; };
+		66A1BAA31F90637A0096907F /* YHDatasourceNetData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHDatasourceNetData.h; sourceTree = "<group>"; };
+		66A1BAA41F90637A0096907F /* YHDatasourceNetData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHDatasourceNetData.m; sourceTree = "<group>"; };
+		66A1BAA61F9090F20096907F /* YHAttribute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHAttribute.h; sourceTree = "<group>"; };
 		66E712431F8F4DB100D8130E /* YU-IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YU-IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66E7125B1F8F4DB200D8130E /* YU-IOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "YU-IOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		66E7125F1F8F4DB200D8130E /* YU_IOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YU_IOSTests.m; sourceTree = "<group>"; };
@@ -84,6 +95,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		66A1BA9F1F905E450096907F /* network */ = {
+			isa = PBXGroup;
+			children = (
+				66A1BAA01F905ECE0096907F /* YHRootNet.h */,
+				66A1BAA11F905ECE0096907F /* YHRootNet.m */,
+				66A1BAA31F90637A0096907F /* YHDatasourceNetData.h */,
+				66A1BAA41F90637A0096907F /* YHDatasourceNetData.m */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
 		66E7123A1F8F4DB100D8130E = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +131,7 @@
 		66E712451F8F4DB100D8130E /* YU-IOS */ = {
 			isa = PBXGroup;
 			children = (
+				66A1BA9F1F905E450096907F /* network */,
 				66E7128F1F8F7C1100D8130E /* ad */,
 				66E7127F1F8F4EC400D8130E /* supporting file */,
 				66E712781F8F4E0300D8130E /* main */,
@@ -176,6 +199,8 @@
 				66E712871F8F4EC400D8130E /* Info.plist */,
 				66E712881F8F4EC400D8130E /* main.m */,
 				66E7128E1F8F540000D8130E /* PrefixHeader.pch */,
+				66A1BA9B1F9056FF0096907F /* classes.h */,
+				66A1BAA61F9090F20096907F /* YHAttribute.h */,
 			);
 			path = "supporting file";
 			sourceTree = "<group>";
@@ -203,6 +228,8 @@
 		66E712911F8F7C1100D8130E /* model */ = {
 			isa = PBXGroup;
 			children = (
+				66A1BA9C1F9059E10096907F /* AdModel.h */,
+				66A1BA9D1F9059E10096907F /* AdModel.m */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -419,9 +446,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66A1BA9E1F9059E10096907F /* AdModel.m in Sources */,
 				66E712961F8F7C3C00D8130E /* YHAdViewController.m in Sources */,
 				66E7128B1F8F4F0A00D8130E /* AppDelegate.m in Sources */,
 				66E712891F8F4EE100D8130E /* main.m in Sources */,
+				66A1BAA51F90637A0096907F /* YHDatasourceNetData.m in Sources */,
+				66A1BAA21F905ECE0096907F /* YHRootNet.m in Sources */,
 				66E7127E1F8F4E1F00D8130E /* YHMainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -506,7 +536,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -555,7 +585,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -571,6 +601,7 @@
 				DEVELOPMENT_TEAM = 7WHZ9LZAC3;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/YU-IOS/supporting file/PrefixHeader.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/YU-IOS/supporting file/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "YH.YU-IOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -588,6 +619,7 @@
 				DEVELOPMENT_TEAM = 7WHZ9LZAC3;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/YU-IOS/supporting file/PrefixHeader.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/YU-IOS/supporting file/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "YH.YU-IOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";

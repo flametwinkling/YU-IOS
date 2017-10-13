@@ -7,7 +7,25 @@
 		<key>YU-IOS.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>4</integer>
+			<integer>5</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>66E712421F8F4DB100D8130E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>66E7125A1F8F4DB200D8130E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>66E712651F8F4DB200D8130E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

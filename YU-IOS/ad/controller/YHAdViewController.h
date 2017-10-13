@@ -10,5 +10,6 @@
 
 @interface YHAdViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UILabel *adBel;
+@property (weak, nonatomic) IBOutlet UIButton *SkipBtn;
 
 @end
