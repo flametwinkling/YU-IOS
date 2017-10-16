@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="YHGuideView">
+            <connections>
+                <outlet property="ensureBtn" destination="VrG-sz-0Kf" id="3K0-0o-TDD"/>
+                <outlet property="indexImageView" destination="I73-GF-QL6" id="P8U-Ux-T1H"/>
+                <outlet property="indexPageControl" destination="JCy-5I-Hh8" id="7Zs-YG-GoU"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="rIF-12-1Bo" customClass="YHGuideView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="I73-GF-QL6">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="JCy-5I-Hh8">
+                    <rect key="frame" x="167.5" y="582" width="39" height="37"/>
+                </pageControl>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VrG-sz-0Kf">
+                    <rect key="frame" x="122.5" y="444" width="130" height="93"/>
+                    <state key="normal" image="pushguidebot"/>
+                    <connections>
+                        <action selector="ensureClick" destination="-1" eventType="touchUpInside" id="gib-oH-9BZ"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="VrG-sz-0Kf" firstAttribute="top" secondItem="ftV-Nn-Qvs" secondAttribute="top" constant="424" id="igg-ii-8wO"/>
+                <constraint firstItem="VrG-sz-0Kf" firstAttribute="centerX" secondItem="rIF-12-1Bo" secondAttribute="centerX" id="jOt-D7-KFW"/>
+                <constraint firstItem="ftV-Nn-Qvs" firstAttribute="bottom" secondItem="JCy-5I-Hh8" secondAttribute="bottom" constant="48" id="jVU-kz-rnc"/>
+                <constraint firstItem="JCy-5I-Hh8" firstAttribute="top" secondItem="VrG-sz-0Kf" secondAttribute="bottom" constant="45" id="tCJ-18-6F4"/>
+                <constraint firstItem="JCy-5I-Hh8" firstAttribute="top" secondItem="ftV-Nn-Qvs" secondAttribute="top" constant="562" id="vET-Z1-Hzx"/>
+                <constraint firstItem="JCy-5I-Hh8" firstAttribute="centerX" secondItem="rIF-12-1Bo" secondAttribute="centerX" id="x07-Gl-NHd"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ftV-Nn-Qvs"/>
+            <point key="canvasLocation" x="-80.5" y="-68.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="pushguidebot" width="130" height="90"/>
+    </resources>
+</document>

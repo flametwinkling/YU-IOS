@@ -9,6 +9,8 @@
 #import "YHAdViewController.h"
 #import "AdModel.h"
 
+#import "YHGuideView.h"
+
 @interface YHAdViewController ()
 {
     int _waiteTimes;
@@ -108,8 +110,8 @@
     [self.timer invalidate];
     self.timer = nil;
     
-    // 切换到主控制器
-    [UIApplication sharedApplication].keyWindow.rootViewController = [[YHMainViewController alloc] init];
+    // 切换到引导页
+    [YHGuideView show];
     
 }
 

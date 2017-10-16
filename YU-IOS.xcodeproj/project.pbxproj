@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		668CE15A1F9463C40069A542 /* YHGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 668CE1591F9463C40069A542 /* YHGuideView.m */; };
+		668CE15C1F9464C80069A542 /* YHGuideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 668CE15B1F9464C80069A542 /* YHGuideView.xib */; };
+		668CE1611F94C0170069A542 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 668CE1601F94BF680069A542 /* UIView+Frame.m */; };
 		66A1BA9E1F9059E10096907F /* AdModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A1BA9D1F9059E10096907F /* AdModel.m */; };
 		66A1BAA21F905ECE0096907F /* YHRootNet.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A1BAA11F905ECE0096907F /* YHRootNet.m */; };
 		66A1BAA51F90637A0096907F /* YHDatasourceNetData.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A1BAA41F90637A0096907F /* YHDatasourceNetData.m */; };
@@ -38,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		668CE1581F9463C40069A542 /* YHGuideView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHGuideView.h; sourceTree = "<group>"; };
+		668CE1591F9463C40069A542 /* YHGuideView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHGuideView.m; sourceTree = "<group>"; };
+		668CE15B1F9464C80069A542 /* YHGuideView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YHGuideView.xib; sourceTree = "<group>"; };
+		668CE15F1F94BF680069A542 /* UIView+Frame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		668CE1601F94BF680069A542 /* UIView+Frame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		66A1BA9B1F9056FF0096907F /* classes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = classes.h; sourceTree = "<group>"; };
 		66A1BA9C1F9059E10096907F /* AdModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdModel.h; sourceTree = "<group>"; };
 		66A1BA9D1F9059E10096907F /* AdModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdModel.m; sourceTree = "<group>"; };
@@ -95,6 +103,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		668CE1571F94639D0069A542 /* guide */ = {
+			isa = PBXGroup;
+			children = (
+				668CE1581F9463C40069A542 /* YHGuideView.h */,
+				668CE1591F9463C40069A542 /* YHGuideView.m */,
+				668CE15B1F9464C80069A542 /* YHGuideView.xib */,
+			);
+			path = guide;
+			sourceTree = "<group>";
+		};
+		668CE15D1F94BF680069A542 /* other */ = {
+			isa = PBXGroup;
+			children = (
+				668CE15E1F94BF680069A542 /* itools */,
+			);
+			path = other;
+			sourceTree = "<group>";
+		};
+		668CE15E1F94BF680069A542 /* itools */ = {
+			isa = PBXGroup;
+			children = (
+				668CE15F1F94BF680069A542 /* UIView+Frame.h */,
+				668CE1601F94BF680069A542 /* UIView+Frame.m */,
+			);
+			path = itools;
+			sourceTree = "<group>";
+		};
 		66A1BA9F1F905E450096907F /* network */ = {
 			isa = PBXGroup;
 			children = (
@@ -131,6 +166,8 @@
 		66E712451F8F4DB100D8130E /* YU-IOS */ = {
 			isa = PBXGroup;
 			children = (
+				668CE15D1F94BF680069A542 /* other */,
+				668CE1571F94639D0069A542 /* guide */,
 				66A1BA9F1F905E450096907F /* network */,
 				66E7128F1F8F7C1100D8130E /* ad */,
 				66E7127F1F8F4EC400D8130E /* supporting file */,
@@ -368,6 +405,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				66E712971F8F7C3C00D8130E /* YHAdViewController.xib in Resources */,
+				668CE15C1F9464C80069A542 /* YHGuideView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,8 +484,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				668CE1611F94C0170069A542 /* UIView+Frame.m in Sources */,
 				66A1BA9E1F9059E10096907F /* AdModel.m in Sources */,
 				66E712961F8F7C3C00D8130E /* YHAdViewController.m in Sources */,
+				668CE15A1F9463C40069A542 /* YHGuideView.m in Sources */,
 				66E7128B1F8F4F0A00D8130E /* AppDelegate.m in Sources */,
 				66E712891F8F4EE100D8130E /* main.m in Sources */,
 				66A1BAA51F90637A0096907F /* YHDatasourceNetData.m in Sources */,

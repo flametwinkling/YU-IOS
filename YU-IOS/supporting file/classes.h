@@ -23,5 +23,6 @@
 
 //itool
 #import "YHAttribute.h"
+#import "UIView+Frame.h"
 
 #endif /* classes_h */
