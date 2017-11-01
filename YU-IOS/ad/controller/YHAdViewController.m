@@ -57,6 +57,7 @@
 #pragma mark -
 #pragma mark set Model
 
+
 -(void)setAdModel:(AdModel *)adModel{
     _adModel = adModel;
     
@@ -110,8 +111,10 @@
     [self.timer invalidate];
     self.timer = nil;
     
-    // 切换到引导页
-    [YHGuideView show];
+//    // 切换到引导页
+//    [YHGuideView show];
+    
+   
     
 }
 

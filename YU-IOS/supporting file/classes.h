@@ -11,6 +11,7 @@
 //vc
 #import "YHMainViewController.h"
 #import "YHAdViewController.h"
+#import "YHExciseViewController.h"
 
 
 //lib
@@ -18,11 +19,13 @@
 #import <UIImageView+WebCache.h>
 #import <MJRefresh.h>
 #import <YYModel.h>
+#import <Masonry.h>
 #import "YHDatasourceNetData.h"
 
 
 //itool
 #import "YHAttribute.h"
 #import "UIView+Frame.h"
+#import "YHUserInfo.h"
 
 #endif /* classes_h */

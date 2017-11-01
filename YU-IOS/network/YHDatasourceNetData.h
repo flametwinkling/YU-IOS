@@ -11,6 +11,14 @@
 
 @interface YHDatasourceNetData : NSObject
 
+
+/**
+ request
+
+ @param urlStr url
+ @param parameter patameter
+ @param completion completion
+ */
 -(void)Request:(NSString *_Nullable)urlStr Parameter:(NSDictionary *_Nullable)parameter completion:(void (^_Nullable)(id _Nonnull result, BOOL isSuccess))completion;
 
 @end

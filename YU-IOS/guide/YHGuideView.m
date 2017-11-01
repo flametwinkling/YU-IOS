@@ -11,7 +11,7 @@
 @implementation YHGuideView
 
 + (instancetype)pushGuideView {
-    return [[NSBundle mainBundle] loadNibNamed:@"YHGuideView" owner:nil options:nil].lastObject;
+    return [[YHGuideView alloc] init];
 }
 
 + (void)show
@@ -31,17 +31,16 @@
         [[NSUserDefaults standardUserDefaults] setObject:currentVersion forKey:versionKey];
         [[NSUserDefaults standardUserDefaults] synchronize];
     }
-    
 }
 
-- (IBAction)ensureClick {
-    [UIView animateWithDuration:1.0 animations:^{
-        self.fY = self.fHeight;
-    } completion:^(BOOL finished) {
-        [self removeFromSuperview];
-    }];
 
-}
-
+//- (IBAction)ensureClick
+//{
+//    [UIView animateWithDuration:1.0 animations:^{
+//        self.fY = self.fHeight;
+//    } completion:^(BOOL finished) {
+//        [self removeFromSuperview];
+//    }];
+//}
 
 @end

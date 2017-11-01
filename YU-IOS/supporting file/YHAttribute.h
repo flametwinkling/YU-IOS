@@ -13,4 +13,11 @@
 #define ScreenHeight [UIScreen mainScreen].bounds.size.height
 #define ScreenBounds [UIScreen mainScreen].bounds
 
+#define VCSizeWidth  self.view.frame.size.width
+#define VCSizeHeight self.view.frame.size.height
+
+//userinfo
+#define USERname @"userName"
+#define USERPassword @"password"
+
 #endif /* YHAttribute_h */

@@ -17,13 +17,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = ({
-        // 创建窗口
+        //创建窗口
         UIWindow *window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
         // 设置窗口的根控制器
-        window.rootViewController = [NSClassFromString(@"YHAdViewController") new];
+        window.rootViewController = [NSClassFromString(@"YHExciseViewController") new];
         window;
     });
-    // 显示窗口
+    //显示窗口
     [self.window makeKeyAndVisible];
     return YES;
 }

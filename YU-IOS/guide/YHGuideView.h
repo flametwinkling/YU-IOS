@@ -10,9 +10,5 @@
 
 @interface YHGuideView : UIView
 
-@property (weak, nonatomic) IBOutlet UIImageView *indexImageView;
-@property (weak, nonatomic) IBOutlet UIButton *ensureBtn;
-@property (weak, nonatomic) IBOutlet UIPageControl *indexPageControl;
-
 + (void)show;
 @end
