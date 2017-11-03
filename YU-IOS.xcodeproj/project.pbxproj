@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		663A90361F95EFB000A698FF /* YHExciseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 663A90351F95EFB000A698FF /* YHExciseViewController.m */; };
+		6676ABD81FA9736F00653F18 /* WMGiftDetaultAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6676ABD71FA972F100653F18 /* WMGiftDetaultAnimationView.m */; };
 		668CE15A1F9463C40069A542 /* YHGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 668CE1591F9463C40069A542 /* YHGuideView.m */; };
 		668CE1611F94C0170069A542 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 668CE1601F94BF680069A542 /* UIView+Frame.m */; };
 		66A1BA9E1F9059E10096907F /* AdModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A1BA9D1F9059E10096907F /* AdModel.m */; };
@@ -86,6 +87,8 @@
 /* Begin PBXFileReference section */
 		663A90341F95EFB000A698FF /* YHExciseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHExciseViewController.h; sourceTree = "<group>"; };
 		663A90351F95EFB000A698FF /* YHExciseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHExciseViewController.m; sourceTree = "<group>"; };
+		6676ABD61FA972F100653F18 /* WMGiftDetaultAnimationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMGiftDetaultAnimationView.h; sourceTree = "<group>"; };
+		6676ABD71FA972F100653F18 /* WMGiftDetaultAnimationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMGiftDetaultAnimationView.m; sourceTree = "<group>"; };
 		668CE1581F9463C40069A542 /* YHGuideView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHGuideView.h; sourceTree = "<group>"; };
 		668CE1591F9463C40069A542 /* YHGuideView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHGuideView.m; sourceTree = "<group>"; };
 		668CE15F1F94BF680069A542 /* UIView+Frame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
@@ -401,6 +404,8 @@
 		66E7127A1F8F4E0300D8130E /* model */ = {
 			isa = PBXGroup;
 			children = (
+				6676ABD61FA972F100653F18 /* WMGiftDetaultAnimationView.h */,
+				6676ABD71FA972F100653F18 /* WMGiftDetaultAnimationView.m */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -754,6 +759,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6676ABD81FA9736F00653F18 /* WMGiftDetaultAnimationView.m in Sources */,
 				66EFC50E1F9DDD020067CA32 /* DGActivityIndicatorBallBeatAnimation.m in Sources */,
 				66EFC50F1F9DDD020067CA32 /* DGActivityIndicatorBallClipRotateAnimation.m in Sources */,
 				66EFC5101F9DDD020067CA32 /* DGActivityIndicatorBallClipRotateMultipleAnimation.m in Sources */,
