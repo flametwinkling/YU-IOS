@@ -20,7 +20,7 @@
         //创建窗口
         UIWindow *window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
         // 设置窗口的根控制器
-        window.rootViewController = [NSClassFromString(@"YHMainViewController") new];
+        window.rootViewController = [NSClassFromString(@"YHAdViewController") new];
         window;
     });
     //显示窗口

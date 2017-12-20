@@ -7,13 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66149D2A1FE76ADA00EBDEE0 /* UICountingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 66149D281FE76AD900EBDEE0 /* UICountingLabel.m */; };
+		66149D311FE7B64B00EBDEE0 /* YHSuspendBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 66149D301FE7B64B00EBDEE0 /* YHSuspendBtn.m */; };
+		66149D361FE7B70D00EBDEE0 /* JJYUIScreenHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = 66149D331FE7B70C00EBDEE0 /* JJYUIScreenHelp.m */; };
+		66149D371FE7B70D00EBDEE0 /* JJYViewHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = 66149D351FE7B70C00EBDEE0 /* JJYViewHelp.m */; };
+		662340B61FDA94FD00937B5A /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 662340B51FDA94FD00937B5A /* GDataXMLNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		662340B91FDA953B00937B5A /* AdData.m in Sources */ = {isa = PBXBuildFile; fileRef = 662340B81FDA953A00937B5A /* AdData.m */; };
+		662340BB1FDA9C9900937B5A /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 662340BA1FDA9C9900937B5A /* libxml2.2.tbd */; };
+		662340BD1FDA9CBB00937B5A /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 662340BC1FDA9CBB00937B5A /* libc++.tbd */; };
 		663A90361F95EFB000A698FF /* YHExciseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 663A90351F95EFB000A698FF /* YHExciseViewController.m */; };
-		6676ABD81FA9736F00653F18 /* WMGiftDetaultAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6676ABD71FA972F100653F18 /* WMGiftDetaultAnimationView.m */; };
+		6656D1761FDE7450001E505E /* UIView+YHTransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6656D1751FDE7450001E505E /* UIView+YHTransitionAnimation.m */; };
+		6656D1781FDE767C001E505E /* YHGuideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6656D1771FDE767C001E505E /* YHGuideView.xib */; };
+		6656D17F1FDE801A001E505E /* YHMainFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6656D17E1FDE801A001E505E /* YHMainFirstViewController.m */; };
+		6656D1851FDE8121001E505E /* WMGiftDetaultAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6656D1831FDE8121001E505E /* WMGiftDetaultAnimationView.m */; };
+		6656D1881FDE83EE001E505E /* YHMainSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6656D1871FDE83EE001E505E /* YHMainSecondViewController.m */; };
+		6656D18E1FDE8841001E505E /* YHNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6656D18D1FDE8841001E505E /* YHNavigationController.m */; };
+		6656D1911FDEA17F001E505E /* YHSigninTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6656D1901FDEA17F001E505E /* YHSigninTopView.m */; };
+		667A38B11FE21AA7002ED9A8 /* YHCalendarTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 667A38B01FE21AA7002ED9A8 /* YHCalendarTool.m */; };
 		668CE15A1F9463C40069A542 /* YHGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 668CE1591F9463C40069A542 /* YHGuideView.m */; };
 		668CE1611F94C0170069A542 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 668CE1601F94BF680069A542 /* UIView+Frame.m */; };
 		66A1BA9E1F9059E10096907F /* AdModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A1BA9D1F9059E10096907F /* AdModel.m */; };
 		66A1BAA21F905ECE0096907F /* YHRootNet.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A1BAA11F905ECE0096907F /* YHRootNet.m */; };
 		66A1BAA51F90637A0096907F /* YHDatasourceNetData.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A1BAA41F90637A0096907F /* YHDatasourceNetData.m */; };
+		66A3D5421FE109B900263A6F /* YHCalenderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A3D5411FE109B900263A6F /* YHCalenderView.m */; };
+		66A3D5451FE110A600263A6F /* YHCalendarWeekCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A3D5441FE110A600263A6F /* YHCalendarWeekCell.m */; };
+		66A3D5481FE110FD00263A6F /* YHCalendarDayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A3D5471FE110FD00263A6F /* YHCalendarDayCell.m */; };
+		66A3D54B1FE12CC400263A6F /* YHCalendarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A3D54A1FE12CC400263A6F /* YHCalendarModel.m */; };
+		66A3D54E1FE1301300263A6F /* YHCalendarData.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A3D54D1FE1301300263A6F /* YHCalendarData.m */; };
 		66DCE90F1F99E2C400AE5655 /* YHMainTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DCE90E1F99E2C400AE5655 /* YHMainTabBarViewController.m */; };
 		66DCE9121F99E46B00AE5655 /* YHNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DCE9111F99E46B00AE5655 /* YHNavigationViewController.m */; };
 		66DCE9151F99F50500AE5655 /* YHExciseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DCE9141F99F50500AE5655 /* YHExciseView.m */; };
@@ -64,6 +84,7 @@
 		66EFC52F1F9DDD020067CA32 /* DGActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66EFC50D1F9DDC0C0067CA32 /* DGActivityIndicatorView.m */; };
 		66EFC5331F9DF1AC0067CA32 /* YHExciseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 66EFC5311F9DF1AC0067CA32 /* YHExciseCell.m */; };
 		66EFC5341F9DF1AC0067CA32 /* YHExciseCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 66EFC5321F9DF1AC0067CA32 /* YHExciseCell.xib */; };
+		66FB73C51FEA6C1300446C8A /* cat.gif in Resources */ = {isa = PBXBuildFile; fileRef = 66FB73C41FEA6C1300446C8A /* cat.gif */; };
 		94CA1FE3C9DA84E6CACC4546 /* libPods-YU-IOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FBF03F0BF43B3369DB940F90 /* libPods-YU-IOS.a */; };
 /* End PBXBuildFile section */
 
@@ -85,10 +106,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		66149D281FE76AD900EBDEE0 /* UICountingLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICountingLabel.m; sourceTree = "<group>"; };
+		66149D291FE76ADA00EBDEE0 /* UICountingLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICountingLabel.h; sourceTree = "<group>"; };
+		66149D2F1FE7B64B00EBDEE0 /* YHSuspendBtn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHSuspendBtn.h; sourceTree = "<group>"; };
+		66149D301FE7B64B00EBDEE0 /* YHSuspendBtn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHSuspendBtn.m; sourceTree = "<group>"; };
+		66149D321FE7B70C00EBDEE0 /* JJYUIScreenHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJYUIScreenHelp.h; sourceTree = "<group>"; };
+		66149D331FE7B70C00EBDEE0 /* JJYUIScreenHelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJYUIScreenHelp.m; sourceTree = "<group>"; };
+		66149D341FE7B70C00EBDEE0 /* JJYViewHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJYViewHelp.h; sourceTree = "<group>"; };
+		66149D351FE7B70C00EBDEE0 /* JJYViewHelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJYViewHelp.m; sourceTree = "<group>"; };
+		662340B31FDA885C00937B5A /* YHUrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHUrl.h; sourceTree = "<group>"; };
+		662340B41FDA94FD00937B5A /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
+		662340B51FDA94FD00937B5A /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
+		662340B71FDA953A00937B5A /* AdData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdData.h; sourceTree = "<group>"; };
+		662340B81FDA953A00937B5A /* AdData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdData.m; sourceTree = "<group>"; };
+		662340BA1FDA9C9900937B5A /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
+		662340BC1FDA9CBB00937B5A /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		663A90341F95EFB000A698FF /* YHExciseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHExciseViewController.h; sourceTree = "<group>"; };
 		663A90351F95EFB000A698FF /* YHExciseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHExciseViewController.m; sourceTree = "<group>"; };
-		6676ABD61FA972F100653F18 /* WMGiftDetaultAnimationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WMGiftDetaultAnimationView.h; sourceTree = "<group>"; };
-		6676ABD71FA972F100653F18 /* WMGiftDetaultAnimationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WMGiftDetaultAnimationView.m; sourceTree = "<group>"; };
+		6656D1741FDE7450001E505E /* UIView+YHTransitionAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YHTransitionAnimation.h"; sourceTree = "<group>"; };
+		6656D1751FDE7450001E505E /* UIView+YHTransitionAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YHTransitionAnimation.m"; sourceTree = "<group>"; };
+		6656D1771FDE767C001E505E /* YHGuideView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YHGuideView.xib; sourceTree = "<group>"; };
+		6656D17D1FDE801A001E505E /* YHMainFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHMainFirstViewController.h; sourceTree = "<group>"; };
+		6656D17E1FDE801A001E505E /* YHMainFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHMainFirstViewController.m; sourceTree = "<group>"; };
+		6656D1831FDE8121001E505E /* WMGiftDetaultAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMGiftDetaultAnimationView.m; sourceTree = "<group>"; };
+		6656D1841FDE8121001E505E /* WMGiftDetaultAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMGiftDetaultAnimationView.h; sourceTree = "<group>"; };
+		6656D1861FDE83EE001E505E /* YHMainSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHMainSecondViewController.h; sourceTree = "<group>"; };
+		6656D1871FDE83EE001E505E /* YHMainSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHMainSecondViewController.m; sourceTree = "<group>"; };
+		6656D18C1FDE8841001E505E /* YHNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHNavigationController.h; sourceTree = "<group>"; };
+		6656D18D1FDE8841001E505E /* YHNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHNavigationController.m; sourceTree = "<group>"; };
+		6656D18F1FDEA17F001E505E /* YHSigninTopView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHSigninTopView.h; sourceTree = "<group>"; };
+		6656D1901FDEA17F001E505E /* YHSigninTopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHSigninTopView.m; sourceTree = "<group>"; };
+		667A38AF1FE21AA7002ED9A8 /* YHCalendarTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHCalendarTool.h; sourceTree = "<group>"; };
+		667A38B01FE21AA7002ED9A8 /* YHCalendarTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHCalendarTool.m; sourceTree = "<group>"; };
 		668CE1581F9463C40069A542 /* YHGuideView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHGuideView.h; sourceTree = "<group>"; };
 		668CE1591F9463C40069A542 /* YHGuideView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHGuideView.m; sourceTree = "<group>"; };
 		668CE15F1F94BF680069A542 /* UIView+Frame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
@@ -101,6 +150,16 @@
 		66A1BAA31F90637A0096907F /* YHDatasourceNetData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHDatasourceNetData.h; sourceTree = "<group>"; };
 		66A1BAA41F90637A0096907F /* YHDatasourceNetData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHDatasourceNetData.m; sourceTree = "<group>"; };
 		66A1BAA61F9090F20096907F /* YHAttribute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHAttribute.h; sourceTree = "<group>"; };
+		66A3D5401FE109B900263A6F /* YHCalenderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHCalenderView.h; sourceTree = "<group>"; };
+		66A3D5411FE109B900263A6F /* YHCalenderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHCalenderView.m; sourceTree = "<group>"; };
+		66A3D5431FE110A600263A6F /* YHCalendarWeekCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHCalendarWeekCell.h; sourceTree = "<group>"; };
+		66A3D5441FE110A600263A6F /* YHCalendarWeekCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHCalendarWeekCell.m; sourceTree = "<group>"; };
+		66A3D5461FE110FD00263A6F /* YHCalendarDayCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHCalendarDayCell.h; sourceTree = "<group>"; };
+		66A3D5471FE110FD00263A6F /* YHCalendarDayCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHCalendarDayCell.m; sourceTree = "<group>"; };
+		66A3D5491FE12CC400263A6F /* YHCalendarModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHCalendarModel.h; sourceTree = "<group>"; };
+		66A3D54A1FE12CC400263A6F /* YHCalendarModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHCalendarModel.m; sourceTree = "<group>"; };
+		66A3D54C1FE1301300263A6F /* YHCalendarData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHCalendarData.h; sourceTree = "<group>"; };
+		66A3D54D1FE1301300263A6F /* YHCalendarData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHCalendarData.m; sourceTree = "<group>"; };
 		66DCE90D1F99E2C400AE5655 /* YHMainTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHMainTabBarViewController.h; sourceTree = "<group>"; };
 		66DCE90E1F99E2C400AE5655 /* YHMainTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHMainTabBarViewController.m; sourceTree = "<group>"; };
 		66DCE9101F99E46B00AE5655 /* YHNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHNavigationViewController.h; sourceTree = "<group>"; };
@@ -203,6 +262,7 @@
 		66EFC5301F9DF1AC0067CA32 /* YHExciseCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHExciseCell.h; sourceTree = "<group>"; };
 		66EFC5311F9DF1AC0067CA32 /* YHExciseCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHExciseCell.m; sourceTree = "<group>"; };
 		66EFC5321F9DF1AC0067CA32 /* YHExciseCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YHExciseCell.xib; sourceTree = "<group>"; };
+		66FB73C41FEA6C1300446C8A /* cat.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = cat.gif; sourceTree = "<group>"; };
 		85698007F931D5D392B3F4B8 /* Pods-YU-IOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YU-IOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YU-IOS/Pods-YU-IOS.debug.xcconfig"; sourceTree = "<group>"; };
 		AE02E3DA5D5C16F415053C32 /* Pods-YU-IOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YU-IOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-YU-IOS/Pods-YU-IOS.release.xcconfig"; sourceTree = "<group>"; };
 		FBF03F0BF43B3369DB940F90 /* libPods-YU-IOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YU-IOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -213,7 +273,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				662340BD1FDA9CBB00937B5A /* libc++.tbd in Frameworks */,
 				94CA1FE3C9DA84E6CACC4546 /* libPods-YU-IOS.a in Frameworks */,
+				662340BB1FDA9C9900937B5A /* libxml2.2.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,6 +296,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		66149D2B1FE7B62900EBDEE0 /* suspendButton */ = {
+			isa = PBXGroup;
+			children = (
+				66149D2C1FE7B62900EBDEE0 /* controller */,
+				66149D2D1FE7B62900EBDEE0 /* model */,
+				66149D2E1FE7B62900EBDEE0 /* view */,
+			);
+			path = suspendButton;
+			sourceTree = "<group>";
+		};
+		66149D2C1FE7B62900EBDEE0 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		66149D2D1FE7B62900EBDEE0 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				66149D2F1FE7B64B00EBDEE0 /* YHSuspendBtn.h */,
+				66149D301FE7B64B00EBDEE0 /* YHSuspendBtn.m */,
+				66149D321FE7B70C00EBDEE0 /* JJYUIScreenHelp.h */,
+				66149D331FE7B70C00EBDEE0 /* JJYUIScreenHelp.m */,
+				66149D341FE7B70C00EBDEE0 /* JJYViewHelp.h */,
+				66149D351FE7B70C00EBDEE0 /* JJYViewHelp.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		66149D2E1FE7B62900EBDEE0 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
 		663A90301F95DAE300A698FF /* excise */ = {
 			isa = PBXGroup;
 			children = (
@@ -276,11 +375,63 @@
 			path = view;
 			sourceTree = "<group>";
 		};
+		6656D1791FDE7FE5001E505E /* subviews */ = {
+			isa = PBXGroup;
+			children = (
+				6656D17A1FDE7FE5001E505E /* controller */,
+				6656D17B1FDE7FE5001E505E /* model */,
+				6656D17C1FDE7FE5001E505E /* view */,
+			);
+			path = subviews;
+			sourceTree = "<group>";
+		};
+		6656D17A1FDE7FE5001E505E /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				6656D17D1FDE801A001E505E /* YHMainFirstViewController.h */,
+				6656D17E1FDE801A001E505E /* YHMainFirstViewController.m */,
+				6656D1861FDE83EE001E505E /* YHMainSecondViewController.h */,
+				6656D1871FDE83EE001E505E /* YHMainSecondViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		6656D17B1FDE7FE5001E505E /* model */ = {
+			isa = PBXGroup;
+			children = (
+				6656D1841FDE8121001E505E /* WMGiftDetaultAnimationView.h */,
+				6656D1831FDE8121001E505E /* WMGiftDetaultAnimationView.m */,
+				66A3D5491FE12CC400263A6F /* YHCalendarModel.h */,
+				66A3D54A1FE12CC400263A6F /* YHCalendarModel.m */,
+				66A3D54C1FE1301300263A6F /* YHCalendarData.h */,
+				66A3D54D1FE1301300263A6F /* YHCalendarData.m */,
+				667A38AF1FE21AA7002ED9A8 /* YHCalendarTool.h */,
+				667A38B01FE21AA7002ED9A8 /* YHCalendarTool.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		6656D17C1FDE7FE5001E505E /* view */ = {
+			isa = PBXGroup;
+			children = (
+				6656D18F1FDEA17F001E505E /* YHSigninTopView.h */,
+				6656D1901FDEA17F001E505E /* YHSigninTopView.m */,
+				66A3D5401FE109B900263A6F /* YHCalenderView.h */,
+				66A3D5411FE109B900263A6F /* YHCalenderView.m */,
+				66A3D5431FE110A600263A6F /* YHCalendarWeekCell.h */,
+				66A3D5441FE110A600263A6F /* YHCalendarWeekCell.m */,
+				66A3D5461FE110FD00263A6F /* YHCalendarDayCell.h */,
+				66A3D5471FE110FD00263A6F /* YHCalendarDayCell.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
 		668CE1571F94639D0069A542 /* guide */ = {
 			isa = PBXGroup;
 			children = (
 				668CE1581F9463C40069A542 /* YHGuideView.h */,
 				668CE1591F9463C40069A542 /* YHGuideView.m */,
+				6656D1771FDE767C001E505E /* YHGuideView.xib */,
 			);
 			path = guide;
 			sourceTree = "<group>";
@@ -301,6 +452,10 @@
 				668CE1601F94BF680069A542 /* UIView+Frame.m */,
 				66EFC4C41F9DD8180067CA32 /* YHUserInfo.h */,
 				66EFC4C51F9DD8180067CA32 /* YHUserInfo.m */,
+				6656D1741FDE7450001E505E /* UIView+YHTransitionAnimation.h */,
+				6656D1751FDE7450001E505E /* UIView+YHTransitionAnimation.m */,
+				66149D291FE76ADA00EBDEE0 /* UICountingLabel.h */,
+				66149D281FE76AD900EBDEE0 /* UICountingLabel.m */,
 			);
 			path = itools;
 			sourceTree = "<group>";
@@ -312,6 +467,8 @@
 				66A1BAA11F905ECE0096907F /* YHRootNet.m */,
 				66A1BAA31F90637A0096907F /* YHDatasourceNetData.h */,
 				66A1BAA41F90637A0096907F /* YHDatasourceNetData.m */,
+				662340B41FDA94FD00937B5A /* GDataXMLNode.h */,
+				662340B51FDA94FD00937B5A /* GDataXMLNode.m */,
 			);
 			path = network;
 			sourceTree = "<group>";
@@ -352,6 +509,8 @@
 		66E712451F8F4DB100D8130E /* YU-IOS */ = {
 			isa = PBXGroup;
 			children = (
+				66149D2B1FE7B62900EBDEE0 /* suspendButton */,
+				6656D1791FDE7FE5001E505E /* subviews */,
 				66DCE90C1F99E28B00AE5655 /* root */,
 				663A90301F95DAE300A698FF /* excise */,
 				668CE15D1F94BF680069A542 /* other */,
@@ -404,8 +563,6 @@
 		66E7127A1F8F4E0300D8130E /* model */ = {
 			isa = PBXGroup;
 			children = (
-				6676ABD61FA972F100653F18 /* WMGiftDetaultAnimationView.h */,
-				6676ABD71FA972F100653F18 /* WMGiftDetaultAnimationView.m */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -413,6 +570,8 @@
 		66E7127B1F8F4E0300D8130E /* view */ = {
 			isa = PBXGroup;
 			children = (
+				6656D18C1FDE8841001E505E /* YHNavigationController.h */,
+				6656D18D1FDE8841001E505E /* YHNavigationController.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -420,6 +579,7 @@
 		66E7127F1F8F4EC400D8130E /* supporting file */ = {
 			isa = PBXGroup;
 			children = (
+				66FB73C41FEA6C1300446C8A /* cat.gif */,
 				66E712801F8F4EC400D8130E /* AppDelegate.h */,
 				66E712811F8F4EC400D8130E /* AppDelegate.m */,
 				66E712821F8F4EC400D8130E /* Assets.xcassets */,
@@ -428,6 +588,7 @@
 				66E7128E1F8F540000D8130E /* PrefixHeader.pch */,
 				66A1BA9B1F9056FF0096907F /* classes.h */,
 				66A1BAA61F9090F20096907F /* YHAttribute.h */,
+				662340B31FDA885C00937B5A /* YHUrl.h */,
 			);
 			path = "supporting file";
 			sourceTree = "<group>";
@@ -457,6 +618,8 @@
 			children = (
 				66A1BA9C1F9059E10096907F /* AdModel.h */,
 				66A1BA9D1F9059E10096907F /* AdModel.m */,
+				662340B71FDA953A00937B5A /* AdData.h */,
+				662340B81FDA953A00937B5A /* AdData.m */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -564,6 +727,8 @@
 		EBB82A9D62A40793A8D248A1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				662340BC1FDA9CBB00937B5A /* libc++.tbd */,
+				662340BA1FDA9C9900937B5A /* libxml2.2.tbd */,
 				FBF03F0BF43B3369DB940F90 /* libPods-YU-IOS.a */,
 			);
 			name = Frameworks;
@@ -680,6 +845,8 @@
 			files = (
 				66EFC4BD1F9DC1530067CA32 /* Assets.xcassets in Resources */,
 				66EFC5341F9DF1AC0067CA32 /* YHExciseCell.xib in Resources */,
+				66FB73C51FEA6C1300446C8A /* cat.gif in Resources */,
+				6656D1781FDE767C001E505E /* YHGuideView.xib in Resources */,
 				66E712971F8F7C3C00D8130E /* YHAdViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -759,7 +926,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6676ABD81FA9736F00653F18 /* WMGiftDetaultAnimationView.m in Sources */,
+				66149D361FE7B70D00EBDEE0 /* JJYUIScreenHelp.m in Sources */,
+				662340B61FDA94FD00937B5A /* GDataXMLNode.m in Sources */,
 				66EFC50E1F9DDD020067CA32 /* DGActivityIndicatorBallBeatAnimation.m in Sources */,
 				66EFC50F1F9DDD020067CA32 /* DGActivityIndicatorBallClipRotateAnimation.m in Sources */,
 				66EFC5101F9DDD020067CA32 /* DGActivityIndicatorBallClipRotateMultipleAnimation.m in Sources */,
@@ -776,22 +944,38 @@
 				66EFC51A1F9DDD020067CA32 /* DGActivityIndicatorBallScaleRippleMultipleAnimation.m in Sources */,
 				66EFC51B1F9DDD020067CA32 /* DGActivityIndicatorBallSpinFadeLoader.m in Sources */,
 				66EFC51C1F9DDD020067CA32 /* DGActivityIndicatorBallTrianglePathAnimation.m in Sources */,
+				66A3D5421FE109B900263A6F /* YHCalenderView.m in Sources */,
 				66EFC51D1F9DDD020067CA32 /* DGActivityIndicatorBallZigZagAnimation.m in Sources */,
+				66A3D5481FE110FD00263A6F /* YHCalendarDayCell.m in Sources */,
 				66EFC51E1F9DDD020067CA32 /* DGActivityIndicatorBallZigZagDeflectAnimation.m in Sources */,
+				6656D1851FDE8121001E505E /* WMGiftDetaultAnimationView.m in Sources */,
+				6656D1911FDEA17F001E505E /* YHSigninTopView.m in Sources */,
+				66149D2A1FE76ADA00EBDEE0 /* UICountingLabel.m in Sources */,
 				66EFC51F1F9DDD020067CA32 /* DGActivityIndicatorCookieTerminatorAnimation.m in Sources */,
 				66EFC5201F9DDD020067CA32 /* DGActivityIndicatorDoubleBounceAnimation.m in Sources */,
 				66EFC5211F9DDD020067CA32 /* DGActivityIndicatorFiveDotsAnimation.m in Sources */,
+				66A3D54B1FE12CC400263A6F /* YHCalendarModel.m in Sources */,
 				66EFC5221F9DDD020067CA32 /* DGActivityIndicatorLineScaleAnimation.m in Sources */,
+				66A3D5451FE110A600263A6F /* YHCalendarWeekCell.m in Sources */,
 				66EFC5231F9DDD020067CA32 /* DGActivityIndicatorLineScalePartyAnimation.m in Sources */,
+				667A38B11FE21AA7002ED9A8 /* YHCalendarTool.m in Sources */,
 				66EFC5241F9DDD020067CA32 /* DGActivityIndicatorLineScalePulseOutAnimation.m in Sources */,
 				66EFC5251F9DDD020067CA32 /* DGActivityIndicatorLineScalePulseOutRapidAnimation.m in Sources */,
+				66A3D54E1FE1301300263A6F /* YHCalendarData.m in Sources */,
+				66149D371FE7B70D00EBDEE0 /* JJYViewHelp.m in Sources */,
+				6656D17F1FDE801A001E505E /* YHMainFirstViewController.m in Sources */,
 				66EFC5261F9DDD020067CA32 /* DGActivityIndicatorNineDotsAnimation.m in Sources */,
 				66EFC5271F9DDD020067CA32 /* DGActivityIndicatorRotatingSandglassAnimation.m in Sources */,
 				66EFC5281F9DDD020067CA32 /* DGActivityIndicatorRotatingSquaresAnimation.m in Sources */,
+				6656D18E1FDE8841001E505E /* YHNavigationController.m in Sources */,
+				662340B91FDA953B00937B5A /* AdData.m in Sources */,
+				66149D311FE7B64B00EBDEE0 /* YHSuspendBtn.m in Sources */,
+				6656D1761FDE7450001E505E /* UIView+YHTransitionAnimation.m in Sources */,
 				66EFC5291F9DDD020067CA32 /* DGActivityIndicatorRotatingTrigonAnimation.m in Sources */,
 				66EFC52A1F9DDD020067CA32 /* DGActivityIndicatorThreeDotsAnimation.m in Sources */,
 				66EFC52B1F9DDD020067CA32 /* DGActivityIndicatorTriangleSkewSpinAnimation.m in Sources */,
 				66EFC52C1F9DDD020067CA32 /* DGActivityIndicatorTriplePulseAnimation.m in Sources */,
+				6656D1881FDE83EE001E505E /* YHMainSecondViewController.m in Sources */,
 				66EFC52D1F9DDD020067CA32 /* DGActivityIndicatorTripleRingsAnimation.m in Sources */,
 				66EFC52E1F9DDD020067CA32 /* DGActivityIndicatorTwoDotsAnimation.m in Sources */,
 				66EFC52F1F9DDD020067CA32 /* DGActivityIndicatorView.m in Sources */,
@@ -960,6 +1144,16 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7WHZ9LZAC3;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/YU-IOS/supporting file/PrefixHeader.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/MJRefresh\"",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"\"${PODS_ROOT}/Headers/Public/YYModel\"",
+					"${SDKROOT}/usr/include/libxml2",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/YU-IOS/supporting file/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -980,6 +1174,16 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7WHZ9LZAC3;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/YU-IOS/supporting file/PrefixHeader.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/MJRefresh\"",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"\"${PODS_ROOT}/Headers/Public/YYModel\"",
+					"${SDKROOT}/usr/include/libxml2",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/YU-IOS/supporting file/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

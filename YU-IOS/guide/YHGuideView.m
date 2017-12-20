@@ -11,7 +11,7 @@
 @implementation YHGuideView
 
 + (instancetype)pushGuideView {
-    return [[YHGuideView alloc] init];
+        return [[NSBundle mainBundle] loadNibNamed:@"YHGuideView" owner:nil options:nil].lastObject;
 }
 
 + (void)show
@@ -21,6 +21,8 @@
     
     NSString *oldVersion = [[NSUserDefaults standardUserDefaults] valueForKey:versionKey];
     
+    //test value
+    currentVersion = @"1.2";
     if (currentVersion != oldVersion)
     {
         [[UIApplication sharedApplication].keyWindow addSubview:({
@@ -34,13 +36,13 @@
 }
 
 
-//- (IBAction)ensureClick
-//{
-//    [UIView animateWithDuration:1.0 animations:^{
-//        self.fY = self.fHeight;
-//    } completion:^(BOOL finished) {
-//        [self removeFromSuperview];
-//    }];
-//}
+- (IBAction)ensureClick
+{
+    [UIView animateWithDuration:1.0 animations:^{
+        
+    } completion:^(BOOL finished) {
+        [self removeFromSuperview];
+    }];
+}
 
 @end

@@ -11,4 +11,5 @@
 @interface YHGuideView : UIView
 
 + (void)show;
+
 @end

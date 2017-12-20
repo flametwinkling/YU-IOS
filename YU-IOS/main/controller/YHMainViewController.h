@@ -10,4 +10,6 @@
 
 @interface YHMainViewController : UIViewController
 
++ (instancetype)sharedInstance;
+
 @end

@@ -1,56 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="YHGuideView">
-            <connections>
-                <outlet property="ensureBtn" destination="VrG-sz-0Kf" id="3K0-0o-TDD"/>
-                <outlet property="indexImageView" destination="I73-GF-QL6" id="P8U-Ux-T1H"/>
-                <outlet property="indexPageControl" destination="JCy-5I-Hh8" id="7Zs-YG-GoU"/>
-            </connections>
-        </placeholder>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="YHGuideView"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="rIF-12-1Bo" customClass="YHGuideView">
+        <view contentMode="scaleToFill" id="arL-D8-JfR" customClass="YHGuideView">
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="I73-GF-QL6">
-                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pushguidetop" translatesAutoresizingMaskIntoConstraints="NO" id="t4A-vj-9mU">
+                    <rect key="frame" x="62.5" y="176" width="250" height="55"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="250" id="L0x-1C-aSF"/>
+                        <constraint firstAttribute="height" constant="55" id="gs3-Oo-Z0j"/>
+                    </constraints>
                 </imageView>
-                <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="JCy-5I-Hh8">
-                    <rect key="frame" x="167.5" y="582" width="39" height="37"/>
-                </pageControl>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VrG-sz-0Kf">
-                    <rect key="frame" x="122.5" y="444" width="130" height="93"/>
-                    <state key="normal" image="pushguidebot"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pushguidemid" translatesAutoresizingMaskIntoConstraints="NO" id="WIe-2r-yBq">
+                    <rect key="frame" x="67.5" y="271" width="240" height="125"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="240" id="psl-hX-gxQ"/>
+                        <constraint firstAttribute="height" constant="125" id="tph-jg-llY"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pushguidebot" translatesAutoresizingMaskIntoConstraints="NO" id="vVS-XL-ndR">
+                    <rect key="frame" x="127.5" y="396" width="130" height="90"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="130" id="Qud-Xj-Xhk"/>
+                        <constraint firstAttribute="height" constant="90" id="vPk-B5-clS"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ce-xd-4sJ">
+                    <rect key="frame" x="127.5" y="443" width="103" height="43"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="103" id="WLV-3E-bhd"/>
+                        <constraint firstAttribute="height" constant="43" id="wJu-e1-JWS"/>
+                    </constraints>
                     <connections>
-                        <action selector="ensureClick" destination="-1" eventType="touchUpInside" id="gib-oH-9BZ"/>
+                        <action selector="ensureClick" destination="-1" eventType="touchUpInside" id="b9Z-Vl-KC2"/>
                     </connections>
                 </button>
             </subviews>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.75" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="VrG-sz-0Kf" firstAttribute="top" secondItem="ftV-Nn-Qvs" secondAttribute="top" constant="424" id="igg-ii-8wO"/>
-                <constraint firstItem="VrG-sz-0Kf" firstAttribute="centerX" secondItem="rIF-12-1Bo" secondAttribute="centerX" id="jOt-D7-KFW"/>
-                <constraint firstItem="ftV-Nn-Qvs" firstAttribute="bottom" secondItem="JCy-5I-Hh8" secondAttribute="bottom" constant="48" id="jVU-kz-rnc"/>
-                <constraint firstItem="JCy-5I-Hh8" firstAttribute="top" secondItem="VrG-sz-0Kf" secondAttribute="bottom" constant="45" id="tCJ-18-6F4"/>
-                <constraint firstItem="JCy-5I-Hh8" firstAttribute="top" secondItem="ftV-Nn-Qvs" secondAttribute="top" constant="562" id="vET-Z1-Hzx"/>
-                <constraint firstItem="JCy-5I-Hh8" firstAttribute="centerX" secondItem="rIF-12-1Bo" secondAttribute="centerX" id="x07-Gl-NHd"/>
+                <constraint firstItem="vVS-XL-ndR" firstAttribute="trailing" secondItem="WIe-2r-yBq" secondAttribute="trailing" constant="-50" id="3ED-xR-7Nj"/>
+                <constraint firstItem="5ce-xd-4sJ" firstAttribute="bottom" secondItem="vVS-XL-ndR" secondAttribute="bottom" id="8Gr-p9-cDf"/>
+                <constraint firstItem="5ce-xd-4sJ" firstAttribute="leading" secondItem="vVS-XL-ndR" secondAttribute="leading" id="AM7-3f-smy"/>
+                <constraint firstItem="WIe-2r-yBq" firstAttribute="top" secondItem="t4A-vj-9mU" secondAttribute="bottom" constant="40" id="JDH-2C-gvT"/>
+                <constraint firstItem="WIe-2r-yBq" firstAttribute="centerY" secondItem="arL-D8-JfR" secondAttribute="centerY" id="ULE-6a-5Fe"/>
+                <constraint firstItem="WIe-2r-yBq" firstAttribute="centerX" secondItem="arL-D8-JfR" secondAttribute="centerX" id="Y23-hm-svG"/>
+                <constraint firstItem="vVS-XL-ndR" firstAttribute="top" secondItem="WIe-2r-yBq" secondAttribute="bottom" id="cDt-oo-azy"/>
+                <constraint firstItem="t4A-vj-9mU" firstAttribute="centerX" secondItem="arL-D8-JfR" secondAttribute="centerX" id="dDu-HP-ui3"/>
             </constraints>
-            <viewLayoutGuide key="safeArea" id="ftV-Nn-Qvs"/>
-            <point key="canvasLocation" x="-80.5" y="-68.5"/>
+            <viewLayoutGuide key="safeArea" id="GxC-11-B1S"/>
+            <point key="canvasLocation" x="26.5" y="52.5"/>
         </view>
     </objects>
     <resources>
         <image name="pushguidebot" width="130" height="90"/>
+        <image name="pushguidemid" width="240" height="125"/>
+        <image name="pushguidetop" width="250" height="55"/>
     </resources>
 </document>

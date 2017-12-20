@@ -21,4 +21,7 @@
  */
 -(void)Request:(NSString *_Nullable)urlStr Parameter:(NSDictionary *_Nullable)parameter completion:(void (^_Nullable)(id _Nonnull result, BOOL isSuccess))completion;
 
+
+//xml
+-(void)RequestXML:(NSString *_Nullable)urlStr Parameter:(NSDictionary *_Nullable)parameter completion:(void (^_Nullable)(id _Nonnull result, BOOL isSuccess))completion;
 @end

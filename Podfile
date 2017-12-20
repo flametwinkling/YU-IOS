@@ -5,4 +5,5 @@ pod 'SDWebImage'
 pod 'MJRefresh'
 pod 'YYModel'
 pod 'Masonry'
+pod 'SDWebImage/GIF'
 end

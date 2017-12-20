@@ -10,5 +10,6 @@
 #define PrefixHeader_pch
 
 #import "classes.h"
+#import "YHUrl.h"
 
 #endif /* PrefixHeader_pch */

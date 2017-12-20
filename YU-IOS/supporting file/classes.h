@@ -9,6 +9,7 @@
 #ifndef classes_h
 #define classes_h
 //vc
+#import "YHNavigationController.h"
 #import "YHMainViewController.h"
 #import "YHAdViewController.h"
 #import "YHExciseViewController.h"
@@ -17,6 +18,8 @@
 //lib
 #import <AFNetworking.h>
 #import <UIImageView+WebCache.h>
+#import <UIImage+GIF.h>//在最新ios下失效,用FLA
+#import <FLAnimatedImage.h>
 #import <MJRefresh.h>
 #import <YYModel.h>
 #import <Masonry.h>
@@ -27,5 +30,7 @@
 #import "YHAttribute.h"
 #import "UIView+Frame.h"
 #import "YHUserInfo.h"
+#import "UIView+YHTransitionAnimation.h"
+#import "UICountingLabel.h"
 
 #endif /* classes_h */
