@@ -6,4 +6,6 @@ pod 'MJRefresh'
 pod 'YYModel'
 pod 'Masonry'
 pod 'SDWebImage/GIF'
+pod 'BlocksKit'
+pod 'SVProgressHUD'
 end

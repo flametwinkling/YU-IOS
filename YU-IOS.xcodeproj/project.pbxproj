@@ -7,35 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		660B40CB2071D2EA00C35BD1 /* NSString+YHSearch.m in Sources */ = {isa = PBXBuildFile; fileRef = 660B40CA2071D2EA00C35BD1 /* NSString+YHSearch.m */; };
 		66149D2A1FE76ADA00EBDEE0 /* UICountingLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 66149D281FE76AD900EBDEE0 /* UICountingLabel.m */; };
 		66149D311FE7B64B00EBDEE0 /* YHSuspendBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 66149D301FE7B64B00EBDEE0 /* YHSuspendBtn.m */; };
 		66149D361FE7B70D00EBDEE0 /* JJYUIScreenHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = 66149D331FE7B70C00EBDEE0 /* JJYUIScreenHelp.m */; };
 		66149D371FE7B70D00EBDEE0 /* JJYViewHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = 66149D351FE7B70C00EBDEE0 /* JJYViewHelp.m */; };
+		6623236A1FF0A46900E862DF /* YHNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 662323661FF0A46900E862DF /* YHNavigationController.m */; };
+		6623236B1FF0A46900E862DF /* YHTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 662323681FF0A46900E862DF /* YHTabBarController.m */; };
 		662340B61FDA94FD00937B5A /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 662340B51FDA94FD00937B5A /* GDataXMLNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		662340B91FDA953B00937B5A /* AdData.m in Sources */ = {isa = PBXBuildFile; fileRef = 662340B81FDA953A00937B5A /* AdData.m */; };
 		662340BB1FDA9C9900937B5A /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 662340BA1FDA9C9900937B5A /* libxml2.2.tbd */; };
 		662340BD1FDA9CBB00937B5A /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 662340BC1FDA9CBB00937B5A /* libc++.tbd */; };
+		6636F202204560AA00045C20 /* YHFourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6636F201204560AA00045C20 /* YHFourViewController.m */; };
+		6636F2042045622D00045C20 /* YHDropDownMenuView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6636F2032045622C00045C20 /* YHDropDownMenuView.bundle */; };
 		663A90361F95EFB000A698FF /* YHExciseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 663A90351F95EFB000A698FF /* YHExciseViewController.m */; };
 		6656D1761FDE7450001E505E /* UIView+YHTransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6656D1751FDE7450001E505E /* UIView+YHTransitionAnimation.m */; };
 		6656D1781FDE767C001E505E /* YHGuideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6656D1771FDE767C001E505E /* YHGuideView.xib */; };
 		6656D17F1FDE801A001E505E /* YHMainFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6656D17E1FDE801A001E505E /* YHMainFirstViewController.m */; };
 		6656D1851FDE8121001E505E /* WMGiftDetaultAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6656D1831FDE8121001E505E /* WMGiftDetaultAnimationView.m */; };
 		6656D1881FDE83EE001E505E /* YHMainSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6656D1871FDE83EE001E505E /* YHMainSecondViewController.m */; };
-		6656D18E1FDE8841001E505E /* YHNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6656D18D1FDE8841001E505E /* YHNavigationController.m */; };
 		6656D1911FDEA17F001E505E /* YHSigninTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6656D1901FDEA17F001E505E /* YHSigninTopView.m */; };
 		667A38B11FE21AA7002ED9A8 /* YHCalendarTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 667A38B01FE21AA7002ED9A8 /* YHCalendarTool.m */; };
+		66810D172046944B009C173F /* YHDropDownMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66810D162046944B009C173F /* YHDropDownMenuView.m */; };
+		66810D1A20469CEC009C173F /* YHButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 66810D1920469CEB009C173F /* YHButton.m */; };
 		668CE15A1F9463C40069A542 /* YHGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 668CE1591F9463C40069A542 /* YHGuideView.m */; };
 		668CE1611F94C0170069A542 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 668CE1601F94BF680069A542 /* UIView+Frame.m */; };
+		668DD76A206E48CD007029F1 /* YHFiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 668DD769206E48CD007029F1 /* YHFiveViewController.m */; };
+		6695427F1FEB63A5009C4FA8 /* YHMainThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6695427E1FEB63A5009C4FA8 /* YHMainThreeViewController.m */; };
 		66A1BA9E1F9059E10096907F /* AdModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A1BA9D1F9059E10096907F /* AdModel.m */; };
 		66A1BAA21F905ECE0096907F /* YHRootNet.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A1BAA11F905ECE0096907F /* YHRootNet.m */; };
 		66A1BAA51F90637A0096907F /* YHDatasourceNetData.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A1BAA41F90637A0096907F /* YHDatasourceNetData.m */; };
+		66A2EA6F1FED0DBD00B99BF4 /* tabBar.json in Resources */ = {isa = PBXBuildFile; fileRef = 66A2EA6E1FED0DBD00B99BF4 /* tabBar.json */; };
 		66A3D5421FE109B900263A6F /* YHCalenderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A3D5411FE109B900263A6F /* YHCalenderView.m */; };
 		66A3D5451FE110A600263A6F /* YHCalendarWeekCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A3D5441FE110A600263A6F /* YHCalendarWeekCell.m */; };
 		66A3D5481FE110FD00263A6F /* YHCalendarDayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A3D5471FE110FD00263A6F /* YHCalendarDayCell.m */; };
 		66A3D54B1FE12CC400263A6F /* YHCalendarModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A3D54A1FE12CC400263A6F /* YHCalendarModel.m */; };
 		66A3D54E1FE1301300263A6F /* YHCalendarData.m in Sources */ = {isa = PBXBuildFile; fileRef = 66A3D54D1FE1301300263A6F /* YHCalendarData.m */; };
-		66DCE90F1F99E2C400AE5655 /* YHMainTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DCE90E1F99E2C400AE5655 /* YHMainTabBarViewController.m */; };
-		66DCE9121F99E46B00AE5655 /* YHNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DCE9111F99E46B00AE5655 /* YHNavigationViewController.m */; };
 		66DCE9151F99F50500AE5655 /* YHExciseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DCE9141F99F50500AE5655 /* YHExciseView.m */; };
 		66E712601F8F4DB200D8130E /* YU_IOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E7125F1F8F4DB200D8130E /* YU_IOSTests.m */; };
 		66E7126B1F8F4DB200D8130E /* YU_IOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E7126A1F8F4DB200D8130E /* YU_IOSUITests.m */; };
@@ -106,6 +113,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		660B40C92071D2EA00C35BD1 /* NSString+YHSearch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+YHSearch.h"; sourceTree = "<group>"; };
+		660B40CA2071D2EA00C35BD1 /* NSString+YHSearch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+YHSearch.m"; sourceTree = "<group>"; };
 		66149D281FE76AD900EBDEE0 /* UICountingLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UICountingLabel.m; sourceTree = "<group>"; };
 		66149D291FE76ADA00EBDEE0 /* UICountingLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UICountingLabel.h; sourceTree = "<group>"; };
 		66149D2F1FE7B64B00EBDEE0 /* YHSuspendBtn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHSuspendBtn.h; sourceTree = "<group>"; };
@@ -114,6 +123,10 @@
 		66149D331FE7B70C00EBDEE0 /* JJYUIScreenHelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJYUIScreenHelp.m; sourceTree = "<group>"; };
 		66149D341FE7B70C00EBDEE0 /* JJYViewHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJYViewHelp.h; sourceTree = "<group>"; };
 		66149D351FE7B70C00EBDEE0 /* JJYViewHelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJYViewHelp.m; sourceTree = "<group>"; };
+		662323661FF0A46900E862DF /* YHNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHNavigationController.m; sourceTree = "<group>"; };
+		662323671FF0A46900E862DF /* YHTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHTabBarController.h; sourceTree = "<group>"; };
+		662323681FF0A46900E862DF /* YHTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHTabBarController.m; sourceTree = "<group>"; };
+		662323691FF0A46900E862DF /* YHNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHNavigationController.h; sourceTree = "<group>"; };
 		662340B31FDA885C00937B5A /* YHUrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHUrl.h; sourceTree = "<group>"; };
 		662340B41FDA94FD00937B5A /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
 		662340B51FDA94FD00937B5A /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
@@ -121,6 +134,9 @@
 		662340B81FDA953A00937B5A /* AdData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdData.m; sourceTree = "<group>"; };
 		662340BA1FDA9C9900937B5A /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
 		662340BC1FDA9CBB00937B5A /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		6636F200204560AA00045C20 /* YHFourViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHFourViewController.h; sourceTree = "<group>"; };
+		6636F201204560AA00045C20 /* YHFourViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHFourViewController.m; sourceTree = "<group>"; };
+		6636F2032045622C00045C20 /* YHDropDownMenuView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = YHDropDownMenuView.bundle; sourceTree = "<group>"; };
 		663A90341F95EFB000A698FF /* YHExciseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHExciseViewController.h; sourceTree = "<group>"; };
 		663A90351F95EFB000A698FF /* YHExciseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHExciseViewController.m; sourceTree = "<group>"; };
 		6656D1741FDE7450001E505E /* UIView+YHTransitionAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YHTransitionAnimation.h"; sourceTree = "<group>"; };
@@ -132,16 +148,22 @@
 		6656D1841FDE8121001E505E /* WMGiftDetaultAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMGiftDetaultAnimationView.h; sourceTree = "<group>"; };
 		6656D1861FDE83EE001E505E /* YHMainSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHMainSecondViewController.h; sourceTree = "<group>"; };
 		6656D1871FDE83EE001E505E /* YHMainSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHMainSecondViewController.m; sourceTree = "<group>"; };
-		6656D18C1FDE8841001E505E /* YHNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHNavigationController.h; sourceTree = "<group>"; };
-		6656D18D1FDE8841001E505E /* YHNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHNavigationController.m; sourceTree = "<group>"; };
 		6656D18F1FDEA17F001E505E /* YHSigninTopView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHSigninTopView.h; sourceTree = "<group>"; };
 		6656D1901FDEA17F001E505E /* YHSigninTopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHSigninTopView.m; sourceTree = "<group>"; };
 		667A38AF1FE21AA7002ED9A8 /* YHCalendarTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHCalendarTool.h; sourceTree = "<group>"; };
 		667A38B01FE21AA7002ED9A8 /* YHCalendarTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHCalendarTool.m; sourceTree = "<group>"; };
+		66810D152046944B009C173F /* YHDropDownMenuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHDropDownMenuView.h; sourceTree = "<group>"; };
+		66810D162046944B009C173F /* YHDropDownMenuView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHDropDownMenuView.m; sourceTree = "<group>"; };
+		66810D1820469CEB009C173F /* YHButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHButton.h; sourceTree = "<group>"; };
+		66810D1920469CEB009C173F /* YHButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHButton.m; sourceTree = "<group>"; };
 		668CE1581F9463C40069A542 /* YHGuideView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHGuideView.h; sourceTree = "<group>"; };
 		668CE1591F9463C40069A542 /* YHGuideView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHGuideView.m; sourceTree = "<group>"; };
 		668CE15F1F94BF680069A542 /* UIView+Frame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
 		668CE1601F94BF680069A542 /* UIView+Frame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		668DD768206E48CD007029F1 /* YHFiveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHFiveViewController.h; sourceTree = "<group>"; };
+		668DD769206E48CD007029F1 /* YHFiveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHFiveViewController.m; sourceTree = "<group>"; };
+		6695427D1FEB63A5009C4FA8 /* YHMainThreeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHMainThreeViewController.h; sourceTree = "<group>"; };
+		6695427E1FEB63A5009C4FA8 /* YHMainThreeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHMainThreeViewController.m; sourceTree = "<group>"; };
 		66A1BA9B1F9056FF0096907F /* classes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = classes.h; sourceTree = "<group>"; };
 		66A1BA9C1F9059E10096907F /* AdModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdModel.h; sourceTree = "<group>"; };
 		66A1BA9D1F9059E10096907F /* AdModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdModel.m; sourceTree = "<group>"; };
@@ -150,6 +172,7 @@
 		66A1BAA31F90637A0096907F /* YHDatasourceNetData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHDatasourceNetData.h; sourceTree = "<group>"; };
 		66A1BAA41F90637A0096907F /* YHDatasourceNetData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHDatasourceNetData.m; sourceTree = "<group>"; };
 		66A1BAA61F9090F20096907F /* YHAttribute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHAttribute.h; sourceTree = "<group>"; };
+		66A2EA6E1FED0DBD00B99BF4 /* tabBar.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tabBar.json; sourceTree = "<group>"; };
 		66A3D5401FE109B900263A6F /* YHCalenderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHCalenderView.h; sourceTree = "<group>"; };
 		66A3D5411FE109B900263A6F /* YHCalenderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHCalenderView.m; sourceTree = "<group>"; };
 		66A3D5431FE110A600263A6F /* YHCalendarWeekCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHCalendarWeekCell.h; sourceTree = "<group>"; };
@@ -160,10 +183,6 @@
 		66A3D54A1FE12CC400263A6F /* YHCalendarModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHCalendarModel.m; sourceTree = "<group>"; };
 		66A3D54C1FE1301300263A6F /* YHCalendarData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHCalendarData.h; sourceTree = "<group>"; };
 		66A3D54D1FE1301300263A6F /* YHCalendarData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHCalendarData.m; sourceTree = "<group>"; };
-		66DCE90D1F99E2C400AE5655 /* YHMainTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHMainTabBarViewController.h; sourceTree = "<group>"; };
-		66DCE90E1F99E2C400AE5655 /* YHMainTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHMainTabBarViewController.m; sourceTree = "<group>"; };
-		66DCE9101F99E46B00AE5655 /* YHNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHNavigationViewController.h; sourceTree = "<group>"; };
-		66DCE9111F99E46B00AE5655 /* YHNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHNavigationViewController.m; sourceTree = "<group>"; };
 		66DCE9131F99F50500AE5655 /* YHExciseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHExciseView.h; sourceTree = "<group>"; };
 		66DCE9141F99F50500AE5655 /* YHExciseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHExciseView.m; sourceTree = "<group>"; };
 		66E712431F8F4DB100D8130E /* YU-IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YU-IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -333,6 +352,44 @@
 			path = view;
 			sourceTree = "<group>";
 		};
+		6636F1FC2045608300045C20 /* four */ = {
+			isa = PBXGroup;
+			children = (
+				6636F1FD2045608300045C20 /* controller */,
+				6636F1FE2045608300045C20 /* model */,
+				6636F1FF2045608300045C20 /* view */,
+			);
+			path = four;
+			sourceTree = "<group>";
+		};
+		6636F1FD2045608300045C20 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				6636F200204560AA00045C20 /* YHFourViewController.h */,
+				6636F201204560AA00045C20 /* YHFourViewController.m */,
+				6636F2032045622C00045C20 /* YHDropDownMenuView.bundle */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		6636F1FE2045608300045C20 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		6636F1FF2045608300045C20 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				66810D152046944B009C173F /* YHDropDownMenuView.h */,
+				66810D162046944B009C173F /* YHDropDownMenuView.m */,
+				66810D1820469CEB009C173F /* YHButton.h */,
+				66810D1920469CEB009C173F /* YHButton.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
 		663A90301F95DAE300A698FF /* excise */ = {
 			isa = PBXGroup;
 			children = (
@@ -378,6 +435,8 @@
 		6656D1791FDE7FE5001E505E /* subviews */ = {
 			isa = PBXGroup;
 			children = (
+				668DD764206E461A007029F1 /* five */,
+				6636F1FC2045608300045C20 /* four */,
 				6656D17A1FDE7FE5001E505E /* controller */,
 				6656D17B1FDE7FE5001E505E /* model */,
 				6656D17C1FDE7FE5001E505E /* view */,
@@ -392,6 +451,8 @@
 				6656D17E1FDE801A001E505E /* YHMainFirstViewController.m */,
 				6656D1861FDE83EE001E505E /* YHMainSecondViewController.h */,
 				6656D1871FDE83EE001E505E /* YHMainSecondViewController.m */,
+				6695427D1FEB63A5009C4FA8 /* YHMainThreeViewController.h */,
+				6695427E1FEB63A5009C4FA8 /* YHMainThreeViewController.m */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -456,8 +517,43 @@
 				6656D1751FDE7450001E505E /* UIView+YHTransitionAnimation.m */,
 				66149D291FE76ADA00EBDEE0 /* UICountingLabel.h */,
 				66149D281FE76AD900EBDEE0 /* UICountingLabel.m */,
+				660B40C92071D2EA00C35BD1 /* NSString+YHSearch.h */,
+				660B40CA2071D2EA00C35BD1 /* NSString+YHSearch.m */,
 			);
 			path = itools;
+			sourceTree = "<group>";
+		};
+		668DD764206E461A007029F1 /* five */ = {
+			isa = PBXGroup;
+			children = (
+				668DD765206E461A007029F1 /* controller */,
+				668DD766206E461A007029F1 /* model */,
+				668DD767206E461A007029F1 /* view */,
+			);
+			path = five;
+			sourceTree = "<group>";
+		};
+		668DD765206E461A007029F1 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				668DD768206E48CD007029F1 /* YHFiveViewController.h */,
+				668DD769206E48CD007029F1 /* YHFiveViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		668DD766206E461A007029F1 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		668DD767206E461A007029F1 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
 			sourceTree = "<group>";
 		};
 		66A1BA9F1F905E450096907F /* network */ = {
@@ -476,10 +572,10 @@
 		66DCE90C1F99E28B00AE5655 /* root */ = {
 			isa = PBXGroup;
 			children = (
-				66DCE90D1F99E2C400AE5655 /* YHMainTabBarViewController.h */,
-				66DCE90E1F99E2C400AE5655 /* YHMainTabBarViewController.m */,
-				66DCE9101F99E46B00AE5655 /* YHNavigationViewController.h */,
-				66DCE9111F99E46B00AE5655 /* YHNavigationViewController.m */,
+				662323691FF0A46900E862DF /* YHNavigationController.h */,
+				662323661FF0A46900E862DF /* YHNavigationController.m */,
+				662323671FF0A46900E862DF /* YHTabBarController.h */,
+				662323681FF0A46900E862DF /* YHTabBarController.m */,
 			);
 			path = root;
 			sourceTree = "<group>";
@@ -570,8 +666,6 @@
 		66E7127B1F8F4E0300D8130E /* view */ = {
 			isa = PBXGroup;
 			children = (
-				6656D18C1FDE8841001E505E /* YHNavigationController.h */,
-				6656D18D1FDE8841001E505E /* YHNavigationController.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -580,6 +674,7 @@
 			isa = PBXGroup;
 			children = (
 				66FB73C41FEA6C1300446C8A /* cat.gif */,
+				66A2EA6E1FED0DBD00B99BF4 /* tabBar.json */,
 				66E712801F8F4EC400D8130E /* AppDelegate.h */,
 				66E712811F8F4EC400D8130E /* AppDelegate.m */,
 				66E712821F8F4EC400D8130E /* Assets.xcassets */,
@@ -845,9 +940,11 @@
 			files = (
 				66EFC4BD1F9DC1530067CA32 /* Assets.xcassets in Resources */,
 				66EFC5341F9DF1AC0067CA32 /* YHExciseCell.xib in Resources */,
+				6636F2042045622D00045C20 /* YHDropDownMenuView.bundle in Resources */,
 				66FB73C51FEA6C1300446C8A /* cat.gif in Resources */,
 				6656D1781FDE767C001E505E /* YHGuideView.xib in Resources */,
 				66E712971F8F7C3C00D8130E /* YHAdViewController.xib in Resources */,
+				66A2EA6F1FED0DBD00B99BF4 /* tabBar.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -891,6 +988,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-YU-IOS/Pods-YU-IOS-resources.sh",
 				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
@@ -927,6 +1025,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				66149D361FE7B70D00EBDEE0 /* JJYUIScreenHelp.m in Sources */,
+				668DD76A206E48CD007029F1 /* YHFiveViewController.m in Sources */,
 				662340B61FDA94FD00937B5A /* GDataXMLNode.m in Sources */,
 				66EFC50E1F9DDD020067CA32 /* DGActivityIndicatorBallBeatAnimation.m in Sources */,
 				66EFC50F1F9DDD020067CA32 /* DGActivityIndicatorBallClipRotateAnimation.m in Sources */,
@@ -937,7 +1036,9 @@
 				66EFC5141F9DDD020067CA32 /* DGActivityIndicatorBallPulseAnimation.m in Sources */,
 				66EFC5331F9DF1AC0067CA32 /* YHExciseCell.m in Sources */,
 				66EFC5151F9DDD020067CA32 /* DGActivityIndicatorBallPulseSyncAnimation.m in Sources */,
+				66810D172046944B009C173F /* YHDropDownMenuView.m in Sources */,
 				66EFC5161F9DDD020067CA32 /* DGActivityIndicatorBallRotateAnimation.m in Sources */,
+				6623236B1FF0A46900E862DF /* YHTabBarController.m in Sources */,
 				66EFC5171F9DDD020067CA32 /* DGActivityIndicatorBallScaleAnimation.m in Sources */,
 				66EFC5181F9DDD020067CA32 /* DGActivityIndicatorBallScaleMultipleAnimation.m in Sources */,
 				66EFC5191F9DDD020067CA32 /* DGActivityIndicatorBallScaleRippleAnimation.m in Sources */,
@@ -951,6 +1052,7 @@
 				6656D1851FDE8121001E505E /* WMGiftDetaultAnimationView.m in Sources */,
 				6656D1911FDEA17F001E505E /* YHSigninTopView.m in Sources */,
 				66149D2A1FE76ADA00EBDEE0 /* UICountingLabel.m in Sources */,
+				660B40CB2071D2EA00C35BD1 /* NSString+YHSearch.m in Sources */,
 				66EFC51F1F9DDD020067CA32 /* DGActivityIndicatorCookieTerminatorAnimation.m in Sources */,
 				66EFC5201F9DDD020067CA32 /* DGActivityIndicatorDoubleBounceAnimation.m in Sources */,
 				66EFC5211F9DDD020067CA32 /* DGActivityIndicatorFiveDotsAnimation.m in Sources */,
@@ -958,7 +1060,9 @@
 				66EFC5221F9DDD020067CA32 /* DGActivityIndicatorLineScaleAnimation.m in Sources */,
 				66A3D5451FE110A600263A6F /* YHCalendarWeekCell.m in Sources */,
 				66EFC5231F9DDD020067CA32 /* DGActivityIndicatorLineScalePartyAnimation.m in Sources */,
+				66810D1A20469CEC009C173F /* YHButton.m in Sources */,
 				667A38B11FE21AA7002ED9A8 /* YHCalendarTool.m in Sources */,
+				6695427F1FEB63A5009C4FA8 /* YHMainThreeViewController.m in Sources */,
 				66EFC5241F9DDD020067CA32 /* DGActivityIndicatorLineScalePulseOutAnimation.m in Sources */,
 				66EFC5251F9DDD020067CA32 /* DGActivityIndicatorLineScalePulseOutRapidAnimation.m in Sources */,
 				66A3D54E1FE1301300263A6F /* YHCalendarData.m in Sources */,
@@ -967,7 +1071,6 @@
 				66EFC5261F9DDD020067CA32 /* DGActivityIndicatorNineDotsAnimation.m in Sources */,
 				66EFC5271F9DDD020067CA32 /* DGActivityIndicatorRotatingSandglassAnimation.m in Sources */,
 				66EFC5281F9DDD020067CA32 /* DGActivityIndicatorRotatingSquaresAnimation.m in Sources */,
-				6656D18E1FDE8841001E505E /* YHNavigationController.m in Sources */,
 				662340B91FDA953B00937B5A /* AdData.m in Sources */,
 				66149D311FE7B64B00EBDEE0 /* YHSuspendBtn.m in Sources */,
 				6656D1761FDE7450001E505E /* UIView+YHTransitionAnimation.m in Sources */,
@@ -978,6 +1081,7 @@
 				6656D1881FDE83EE001E505E /* YHMainSecondViewController.m in Sources */,
 				66EFC52D1F9DDD020067CA32 /* DGActivityIndicatorTripleRingsAnimation.m in Sources */,
 				66EFC52E1F9DDD020067CA32 /* DGActivityIndicatorTwoDotsAnimation.m in Sources */,
+				6623236A1FF0A46900E862DF /* YHNavigationController.m in Sources */,
 				66EFC52F1F9DDD020067CA32 /* DGActivityIndicatorView.m in Sources */,
 				66EFC4C01F9DCB070067CA32 /* YHPlayerAnimation.m in Sources */,
 				668CE1611F94C0170069A542 /* UIView+Frame.m in Sources */,
@@ -985,12 +1089,11 @@
 				66EFC4C61F9DD8180067CA32 /* YHUserInfo.m in Sources */,
 				66E712961F8F7C3C00D8130E /* YHAdViewController.m in Sources */,
 				66DCE9151F99F50500AE5655 /* YHExciseView.m in Sources */,
-				66DCE90F1F99E2C400AE5655 /* YHMainTabBarViewController.m in Sources */,
 				668CE15A1F9463C40069A542 /* YHGuideView.m in Sources */,
 				663A90361F95EFB000A698FF /* YHExciseViewController.m in Sources */,
 				66E7128B1F8F4F0A00D8130E /* AppDelegate.m in Sources */,
-				66DCE9121F99E46B00AE5655 /* YHNavigationViewController.m in Sources */,
 				66E712891F8F4EE100D8130E /* main.m in Sources */,
+				6636F202204560AA00045C20 /* YHFourViewController.m in Sources */,
 				66A1BAA51F90637A0096907F /* YHDatasourceNetData.m in Sources */,
 				66A1BAA21F905ECE0096907F /* YHRootNet.m in Sources */,
 				66E7127E1F8F4E1F00D8130E /* YHMainViewController.m in Sources */,

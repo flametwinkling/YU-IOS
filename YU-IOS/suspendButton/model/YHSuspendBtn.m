@@ -581,8 +581,6 @@
     self.lbUserType1.text=@"个人中心";
     self.lbUserType2.text=@"个人中心";
     
-    
-    
 }
 
 
@@ -606,20 +604,7 @@
 -(void)paycentOnclick:(UITapGestureRecognizer *)re
 {
     self.payBlock();
-    
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -634,8 +619,8 @@ static YHSuspendBtn *_instace;
     
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        if (_instace ==nil) {
-            _instace=[[YHSuspendBtn alloc]initWithImageName:name];
+        if (_instace == nil) {
+            _instace = [[YHSuspendBtn alloc] initWithImageName:name];
         }
     });
     

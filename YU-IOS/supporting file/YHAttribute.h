@@ -18,6 +18,9 @@
 #define VCSizeWidth  self.view.frame.size.width
 #define VCSizeHeight self.view.frame.size.height
 
+#define ViewSizeHight self.frame.size.height
+#define ViewSizeWith  self.frame.size.width
+
 
 //颜色
 #define RGBA(R, G, B, A) \

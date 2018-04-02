@@ -23,7 +23,7 @@
                         <constraint firstAttribute="height" constant="55" id="gs3-Oo-Z0j"/>
                     </constraints>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pushguidemid" translatesAutoresizingMaskIntoConstraints="NO" id="WIe-2r-yBq">
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pushguide02" translatesAutoresizingMaskIntoConstraints="NO" id="WIe-2r-yBq">
                     <rect key="frame" x="67.5" y="271" width="240" height="125"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="240" id="psl-hX-gxQ"/>
@@ -64,8 +64,8 @@
         </view>
     </objects>
     <resources>
+        <image name="pushguide02" width="281" height="166"/>
         <image name="pushguidebot" width="130" height="90"/>
-        <image name="pushguidemid" width="240" height="125"/>
         <image name="pushguidetop" width="250" height="55"/>
     </resources>
 </document>

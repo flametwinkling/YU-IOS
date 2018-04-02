@@ -23,6 +23,7 @@
     
     //test value
     currentVersion = @"1.2";
+    
     if (currentVersion != oldVersion)
     {
         [[UIApplication sharedApplication].keyWindow addSubview:({

@@ -9,6 +9,9 @@
 #import "YHMainViewController.h"
 #import "YHMainFirstViewController.h"
 #import "YHMainSecondViewController.h"
+#import "YHMainThreeViewController.h"
+#import "YHFourViewController.h"
+#import "YHFiveViewController.h"
 #import "YHSuspendBtn.h"
 @interface YHMainViewController ()
 
@@ -36,7 +39,7 @@ static YHMainViewController *_instance;
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
-    self.navigationItem.title = @"首页";
+   // self.navigationItem.title = @"首页";
     [self subviews];
 }
 
@@ -70,8 +73,51 @@ static YHMainViewController *_instance;
         make.right.mas_equalTo(-60);
         make.height.mas_equalTo(60);
     }];
-
     
+    UIButton *btn2 = [[UIButton alloc] init];
+    [btn2 setTitle:@"three" forState:UIControlStateNormal];
+    btn2.backgroundColor = [UIColor redColor];
+    [btn2 addTarget:self action:@selector(onClick2) forControlEvents:UIControlEventTouchUpInside];
+    
+    [self.view addSubview:btn2];
+    
+    [btn2 mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.equalTo(btn1.mas_bottom).offset(20);
+        make.left.mas_equalTo(60);
+        make.right.mas_equalTo(-60);
+        make.height.mas_equalTo(60);
+    }];
+    
+    UIButton *btn3 = [[UIButton alloc] init];
+    [btn3 setTitle:@"four" forState:UIControlStateNormal];
+    btn3.backgroundColor = [UIColor redColor];
+    [btn3 addTarget:self action:@selector(onClick3) forControlEvents:UIControlEventTouchUpInside];
+    
+    [self.view addSubview:btn3];
+    
+    [btn3 mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.equalTo(btn2.mas_bottom).offset(20);
+        make.left.mas_equalTo(60);
+        make.right.mas_equalTo(-60);
+        make.height.mas_equalTo(60);
+    }];
+
+    UIButton *btn4 = [[UIButton alloc] init];
+    [btn4 setTitle:@"five" forState:UIControlStateNormal];
+    btn4.backgroundColor = [UIColor redColor];
+    [btn4 addTarget:self action:@selector(onClick4) forControlEvents:UIControlEventTouchUpInside];
+    
+    [self.view addSubview:btn4];
+    
+    [btn4 mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.equalTo(btn3.mas_bottom).offset(20);
+        make.left.mas_equalTo(60);
+        make.right.mas_equalTo(-60);
+        make.height.mas_equalTo(60);
+    }];
+
+
+
     [self createSuspendBtn];
 }
 
@@ -115,6 +161,22 @@ static YHMainViewController *_instance;
 
 -(void)onClick1{
     [self.navigationController pushViewController:[[YHMainSecondViewController alloc] init] animated:YES];
+}
+
+- (void)onClick2{
+  //  NSLog(@"v =%@, vs =%@",mainthreevalue,mainthreevalues);
+    YHMainThreeViewController *threeVC = [[YHMainThreeViewController alloc] init];
+  //  NSLog(@"v =%@, vs =%@",mainthreevalue,mainthreevalues);
+
+    [self.navigationController pushViewController:threeVC animated:YES];
+}
+
+-(void)onClick3{
+    [self.navigationController pushViewController:[[YHFourViewController alloc] init] animated:YES];
+}
+
+- (void)onClick4{
+    [self.navigationController pushViewController:[[YHFiveViewController alloc] init] animated:YES];
 }
 
 

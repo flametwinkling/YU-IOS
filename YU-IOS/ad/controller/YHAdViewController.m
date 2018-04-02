@@ -45,8 +45,7 @@
             [self.timer fire];
         }else{
             // 切换到主控制器
-            YHNavigationController *nav = [[YHNavigationController alloc] initWithRootViewController:[YHMainViewController sharedInstance]];
-            [UIApplication sharedApplication].keyWindow.rootViewController = nav;
+            [UIApplication sharedApplication].keyWindow.rootViewController = [YHTabBarController sharedInstance];
         }
     }];
 }
@@ -110,8 +109,7 @@
     self.timer = nil;
     
     // 切换到主控制器
-    YHNavigationController *nav = [[YHNavigationController alloc] initWithRootViewController:[YHMainViewController sharedInstance]];
-    [UIApplication sharedApplication].keyWindow.rootViewController = nav;
+    [UIApplication sharedApplication].keyWindow.rootViewController = [YHTabBarController sharedInstance];;
     // 切换到引导页
     [YHGuideView show];
 }

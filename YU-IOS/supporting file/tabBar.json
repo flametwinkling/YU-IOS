@@ -1,0 +1,20 @@
+[
+  {
+    "classname":"YHMainViewController",
+    "title":"首页1",
+    "image":"home",
+    "selectedImage":"home_selected"
+  },
+  {
+    "classname":"YHIsaybViewController",
+    "title":"爱说吧",
+    "image":"isayb",
+    "selectedImage":"isayb_selected"
+  },
+  {
+    "classname":"YHMeViewController",
+    "title":"我",
+    "image":"me",
+    "selectedImage":"me_selected"
+  }
+]

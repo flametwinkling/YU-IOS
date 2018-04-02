@@ -14,6 +14,21 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
+  - BlocksKit (2.2.5):
+    - BlocksKit/All (= 2.2.5)
+  - BlocksKit/All (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.5)
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - BlocksKit/MessageUI (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
   - FLAnimatedImage (1.0.12)
   - Masonry (1.1.0)
   - MJRefresh (3.1.14)
@@ -23,24 +38,29 @@ PODS:
   - SDWebImage/GIF (4.1.2):
     - FLAnimatedImage (~> 1.0)
     - SDWebImage/Core
+  - SVProgressHUD (2.2.1)
   - YYModel (1.0.4)
 
 DEPENDENCIES:
   - AFNetworking
+  - BlocksKit
   - Masonry
   - MJRefresh
   - SDWebImage
   - SDWebImage/GIF
+  - SVProgressHUD
   - YYModel
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
   FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJRefresh: 6642e35b3227a5447b9fd5e17c552c90196c9859
   SDWebImage: cb6f9f266a9977741efcbc21e618e8be3734c774
+  SVProgressHUD: db27c54e6e18bc903341661fc9feb55e04905cc4
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: 795ba24ca08898948e55f9af521cf0cbb2bb4787
+PODFILE CHECKSUM: 95225230c0d5260dd4a16c1093e391c97c35dd3f
 
 COCOAPODS: 1.3.1
