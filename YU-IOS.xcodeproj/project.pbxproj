@@ -12,8 +12,6 @@
 		66149D311FE7B64B00EBDEE0 /* YHSuspendBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 66149D301FE7B64B00EBDEE0 /* YHSuspendBtn.m */; };
 		66149D361FE7B70D00EBDEE0 /* JJYUIScreenHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = 66149D331FE7B70C00EBDEE0 /* JJYUIScreenHelp.m */; };
 		66149D371FE7B70D00EBDEE0 /* JJYViewHelp.m in Sources */ = {isa = PBXBuildFile; fileRef = 66149D351FE7B70C00EBDEE0 /* JJYViewHelp.m */; };
-		6623236A1FF0A46900E862DF /* YHNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 662323661FF0A46900E862DF /* YHNavigationController.m */; };
-		6623236B1FF0A46900E862DF /* YHTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 662323681FF0A46900E862DF /* YHTabBarController.m */; };
 		662340B61FDA94FD00937B5A /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 662340B51FDA94FD00937B5A /* GDataXMLNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		662340B91FDA953B00937B5A /* AdData.m in Sources */ = {isa = PBXBuildFile; fileRef = 662340B81FDA953A00937B5A /* AdData.m */; };
 		662340BB1FDA9C9900937B5A /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 662340BA1FDA9C9900937B5A /* libxml2.2.tbd */; };
@@ -123,10 +121,6 @@
 		66149D331FE7B70C00EBDEE0 /* JJYUIScreenHelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJYUIScreenHelp.m; sourceTree = "<group>"; };
 		66149D341FE7B70C00EBDEE0 /* JJYViewHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJYViewHelp.h; sourceTree = "<group>"; };
 		66149D351FE7B70C00EBDEE0 /* JJYViewHelp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJYViewHelp.m; sourceTree = "<group>"; };
-		662323661FF0A46900E862DF /* YHNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHNavigationController.m; sourceTree = "<group>"; };
-		662323671FF0A46900E862DF /* YHTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHTabBarController.h; sourceTree = "<group>"; };
-		662323681FF0A46900E862DF /* YHTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHTabBarController.m; sourceTree = "<group>"; };
-		662323691FF0A46900E862DF /* YHNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHNavigationController.h; sourceTree = "<group>"; };
 		662340B31FDA885C00937B5A /* YHUrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHUrl.h; sourceTree = "<group>"; };
 		662340B41FDA94FD00937B5A /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
 		662340B51FDA94FD00937B5A /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
@@ -527,8 +521,6 @@
 			isa = PBXGroup;
 			children = (
 				668DD765206E461A007029F1 /* controller */,
-				668DD766206E461A007029F1 /* model */,
-				668DD767206E461A007029F1 /* view */,
 			);
 			path = five;
 			sourceTree = "<group>";
@@ -542,20 +534,6 @@
 			path = controller;
 			sourceTree = "<group>";
 		};
-		668DD766206E461A007029F1 /* model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = model;
-			sourceTree = "<group>";
-		};
-		668DD767206E461A007029F1 /* view */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = view;
-			sourceTree = "<group>";
-		};
 		66A1BA9F1F905E450096907F /* network */ = {
 			isa = PBXGroup;
 			children = (
@@ -567,17 +545,6 @@
 				662340B51FDA94FD00937B5A /* GDataXMLNode.m */,
 			);
 			path = network;
-			sourceTree = "<group>";
-		};
-		66DCE90C1F99E28B00AE5655 /* root */ = {
-			isa = PBXGroup;
-			children = (
-				662323691FF0A46900E862DF /* YHNavigationController.h */,
-				662323661FF0A46900E862DF /* YHNavigationController.m */,
-				662323671FF0A46900E862DF /* YHTabBarController.h */,
-				662323681FF0A46900E862DF /* YHTabBarController.m */,
-			);
-			path = root;
 			sourceTree = "<group>";
 		};
 		66E7123A1F8F4DB100D8130E = {
@@ -607,7 +574,6 @@
 			children = (
 				66149D2B1FE7B62900EBDEE0 /* suspendButton */,
 				6656D1791FDE7FE5001E505E /* subviews */,
-				66DCE90C1F99E28B00AE5655 /* root */,
 				663A90301F95DAE300A698FF /* excise */,
 				668CE15D1F94BF680069A542 /* other */,
 				668CE1571F94639D0069A542 /* guide */,
@@ -1038,7 +1004,6 @@
 				66EFC5151F9DDD020067CA32 /* DGActivityIndicatorBallPulseSyncAnimation.m in Sources */,
 				66810D172046944B009C173F /* YHDropDownMenuView.m in Sources */,
 				66EFC5161F9DDD020067CA32 /* DGActivityIndicatorBallRotateAnimation.m in Sources */,
-				6623236B1FF0A46900E862DF /* YHTabBarController.m in Sources */,
 				66EFC5171F9DDD020067CA32 /* DGActivityIndicatorBallScaleAnimation.m in Sources */,
 				66EFC5181F9DDD020067CA32 /* DGActivityIndicatorBallScaleMultipleAnimation.m in Sources */,
 				66EFC5191F9DDD020067CA32 /* DGActivityIndicatorBallScaleRippleAnimation.m in Sources */,
@@ -1081,7 +1046,6 @@
 				6656D1881FDE83EE001E505E /* YHMainSecondViewController.m in Sources */,
 				66EFC52D1F9DDD020067CA32 /* DGActivityIndicatorTripleRingsAnimation.m in Sources */,
 				66EFC52E1F9DDD020067CA32 /* DGActivityIndicatorTwoDotsAnimation.m in Sources */,
-				6623236A1FF0A46900E862DF /* YHNavigationController.m in Sources */,
 				66EFC52F1F9DDD020067CA32 /* DGActivityIndicatorView.m in Sources */,
 				66EFC4C01F9DCB070067CA32 /* YHPlayerAnimation.m in Sources */,
 				668CE1611F94C0170069A542 /* UIView+Frame.m in Sources */,

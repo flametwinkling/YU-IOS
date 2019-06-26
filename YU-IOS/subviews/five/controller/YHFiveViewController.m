@@ -25,19 +25,6 @@
     bel.text = @" this a ishome about this is!";
     [self.view addSubview:bel];
     NSMutableAttributedString *attributedStr = [[NSMutableAttributedString alloc] initWithString:bel.text];
-
-//    NSArray *arr = [bel.text getRange:@" is"];
-//    for (int i=0; i<arr.count; i++) {
-//        NSRange ranges = NSMakeRange([arr[i] integerValue], @"is".length);
-//        [attributedStr addAttribute:NSForegroundColorAttributeName value:[UIColor redColor]  range:ranges];
-//        bel.attributedText = attributedStr;
-//    }
-    
-//    NSString *str = @"abd&d dd";
-//    NSCharacterSet *characterset = [NSCharacterSet characterSetWithCharactersInString:@" &"];
-//    NSArray *dd = [str componentsSeparatedByCharactersInSet:characterset];
-//    NSArray *ss = [str componentsSeparatedByString:@" &"];
-//    NSLog(@"dd == %@ ss == %@",dd,ss);
     
     
     NSCharacterSet *characterset = [NSCharacterSet characterSetWithCharactersInString:@",.?!\"'"];
